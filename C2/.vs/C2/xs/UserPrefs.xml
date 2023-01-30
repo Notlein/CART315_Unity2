@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{4D8D422D-7D90-69C3-3540-827C99288FFD}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Rotater.cs">
+    <Files>
+      <File FileName="Assets/Rotater.cs" Line="41" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="C2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Rotater.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="59a28961-8458-4537-9f0e-4a1d39853c9a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
