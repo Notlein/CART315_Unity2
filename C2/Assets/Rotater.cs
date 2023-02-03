@@ -9,6 +9,7 @@ public class Rotater : MonoBehaviour
     public float rotationSpeed;
     public float posY;
     public float highPos;
+    public PickerUpper player;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,13 +35,9 @@ public class Rotater : MonoBehaviour
     void FixedUpdate()
     {
         
-    if (rotate) { this.GetComponent<Transform>().Rotate(0, rotationSpeed, 0); }
+    if (rotate && player.count > 0) { this.GetComponent<Transform>().Rotate(0, rotationSpeed, 0); }
 
-        while (posY < highPos) {
-            posY = posY + 0.1f;
-            Debug.Log(posY);
-            this.GetComponent<Transform>().Translate(0, 01f, 0);
-        }
+        
 
         
         
