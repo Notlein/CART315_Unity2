@@ -1,0 +1,348 @@
+Unity Editor version:    2021.3.16f1 (4016570cf34f)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.15.7 (Build 19H1713)
+Darwin version:          19.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+/Users/mac-pro/Desktop/Cart315/CART315_Unity2/C2
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+50392
+Successfully changed project path to: /Users/mac-pro/Desktop/Cart315/CART315_Unity2/C2
+/Users/mac-pro/Desktop/Cart315/CART315_Unity2/C2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4433771968] Host "[IP] 172.30.87.91 [Port] 0 [Flags] 2 [Guid] 3866105226 [EditorId] 3866105226 [Version] 1048832 [Id] OSXEditor(0,mbp-de-pro.wireless.concordia.ca) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4433771968] Host "[IP] 172.30.87.91 [Port] 0 [Flags] 2 [Guid] 3866105226 [EditorId] 3866105226 [Version] 1048832 [Id] OSXEditor(0,mbp-de-pro.wireless.concordia.ca) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 201.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mac-pro/Desktop/Cart315/CART315_Unity2/C2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: NVIDIA GeForce GT 650M (high power)
+Metal devices available: 2
+0: NVIDIA GeForce GT 650M (high power)
+1: Intel HD Graphics 4000 (low power)
+Using device NVIDIA GeForce GT 650M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 650M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56050
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002692 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 124.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.200 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1201ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (798ms)
+			LoadAssemblies (209ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (473ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (124ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012974 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mac-pro/Desktop/Cart315/CART315_Unity2/C2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mac-pro/Desktop/Cart315/CART315_Unity2/C2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.969 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1970ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1595ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (536ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (644ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (448ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (117.3 KB). Loaded Objects now: 4235.
+Memory consumption went from 145.6 MB to 145.5 MB.
+Total: 4.813766 ms (FindLiveObjects: 0.365219 ms CreateObjectMapping: 0.350162 ms MarkObjects: 3.902943 ms  DeleteObjects: 0.194011 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 120789.089704 seconds.
+  path: Assets/LowPolyAlienWorld/Flora/Grass_01.fbx
+  artifactKey: Guid(060c6905cbfcb604aa70b0104e423aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Flora/Grass_01.fbx using Guid(060c6905cbfcb604aa70b0104e423aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63abc49fe1aa69cff2420d301ec62c1') in 1.790685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/LowPolyAlienWorld/Rocks/RockFormation_03.fbx
+  artifactKey: Guid(bf2b3a73418b1f346a01605e1749eb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Rocks/RockFormation_03.fbx using Guid(bf2b3a73418b1f346a01605e1749eb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a5ba734e6ecc9dddd5586c8773b1b1') in 0.111532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/LowPolyAlienWorld/Rocks/Prefabs/RockFormation_04.prefab
+  artifactKey: Guid(2a3d0937e42cd1141abe41a3a1279e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Rocks/Prefabs/RockFormation_04.prefab using Guid(2a3d0937e42cd1141abe41a3a1279e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3355231387df1d3d7c6f26c17a54b9e') in 0.362276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/LowPolyAlienWorld/Flora/Prefabs/SmalRoots_01.prefab
+  artifactKey: Guid(736e50b5fd21b1240b02444bc774d83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Flora/Prefabs/SmalRoots_01.prefab using Guid(736e50b5fd21b1240b02444bc774d83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f230f74e3da3352ab2bdb9175091891c') in 0.071046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/LowPolyAlienWorld/Terrain.prefab
+  artifactKey: Guid(f9b070a0df4bf2941a858f1c29591401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Terrain.prefab using Guid(f9b070a0df4bf2941a858f1c29591401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cb67776662ffdb44015dbcb4a61a3d') in 0.015967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/LowPolyAlienWorld/Rocks/SmallRock_01.fbx
+  artifactKey: Guid(66a0e61120cf33440bd8b7b1ecb68812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Rocks/SmallRock_01.fbx using Guid(66a0e61120cf33440bd8b7b1ecb68812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1b45de10f7e21c04edbaa443ab2298') in 0.119155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/LowPolyAlienWorld/Rocks/Prefabs/SmallRock_04.prefab
+  artifactKey: Guid(c7c726d17347cd44a8b6a3d3600f37b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Rocks/Prefabs/SmallRock_04.prefab using Guid(c7c726d17347cd44a8b6a3d3600f37b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93be30597295abb85befa48ee0cc6b5') in 0.013746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/LowPolyAlienWorld/Rocks/SmallRock_02.fbx
+  artifactKey: Guid(9fabcefaf623d7a449bdf51b06b3aa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Rocks/SmallRock_02.fbx using Guid(9fabcefaf623d7a449bdf51b06b3aa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209a7e08de4f39c7596f9d1eb9dc0ba8') in 0.023032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/LowPolyAlienWorld/Flora/Tenticles_01.fbx
+  artifactKey: Guid(ec55ac038e536864295d9fe81cbce0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Flora/Tenticles_01.fbx using Guid(ec55ac038e536864295d9fe81cbce0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5e38bc425deb2f6966eece40b2aa8e') in 0.052547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/LowPolyAlienWorld/Terrain.fbx
+  artifactKey: Guid(587c5ef11f1639140b1ec4c74d6b908e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Terrain.fbx using Guid(587c5ef11f1639140b1ec4c74d6b908e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea71c15a9eb80b7d0331a8ee341fa21') in 0.049181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/LowPolyAlienWorld/Rocks/Prefabs/RockFormation_05.prefab
+  artifactKey: Guid(8fcd235d2094ac44094696a898fa6a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Rocks/Prefabs/RockFormation_05.prefab using Guid(8fcd235d2094ac44094696a898fa6a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc22cbb6629c9a8a124509ce087d83dd') in 0.015186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/LowPolyAlienWorld/Rocks/Prefabs/RockFormation_07.prefab
+  artifactKey: Guid(715b325acd44dfd42a1b236411075c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Rocks/Prefabs/RockFormation_07.prefab using Guid(715b325acd44dfd42a1b236411075c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d02ea9ddb7b6353d9ad861bf859ed2c') in 0.018154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/LowPolyAlienWorld/Flora/SmalRoots_01.fbx
+  artifactKey: Guid(a889028809bcec64ab9eb5c7c4d2461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Flora/SmalRoots_01.fbx using Guid(a889028809bcec64ab9eb5c7c4d2461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad166cd7a5c83dc7eefc46e827564ca') in 0.024913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/LowPolyAlienWorld/Rocks/RockFormation_02.fbx
+  artifactKey: Guid(d9e1184cd1f94b9469b0c4c593ae1776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Rocks/RockFormation_02.fbx using Guid(d9e1184cd1f94b9469b0c4c593ae1776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de73e6689c41d4d263db17b09c59306f') in 0.039171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 334.760192 seconds.
+  path: Assets/StarfieldMaterials/DemoMaterials/Starfield_01_Material.mat
+  artifactKey: Guid(1c386ad723a79204a9ebca483b5ac294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/DemoMaterials/Starfield_01_Material.mat using Guid(1c386ad723a79204a9ebca483b5ac294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de96232ac5aa39e0a32c0dc4e3390235') in 0.995579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/LowPolyAlienWorld/Materials/Water.mat
+  artifactKey: Guid(b3b2e292d961d604c9f7cdec47119a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Materials/Water.mat using Guid(b3b2e292d961d604c9f7cdec47119a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d68b2c6236500074a95d0fb8dadd0cc') in 0.473735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Jonathan Foust/Demo Scene Assets/Materials/Temple.mat
+  artifactKey: Guid(5a0afb0477624404baf845de77abf921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Demo Scene Assets/Materials/Temple.mat using Guid(5a0afb0477624404baf845de77abf921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5b8d63438c2f4a58470446c8f3e635') in 0.593565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Jonathan Foust/Demo Scene Assets/Materials/Walkway.mat
+  artifactKey: Guid(ba4edd178341d3749abff40201cf5fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Demo Scene Assets/Materials/Walkway.mat using Guid(ba4edd178341d3749abff40201cf5fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45a702e6ee816a3fc6c6dd994c63a34') in 0.265150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 217.290967 seconds.
+  path: Assets/LowPolyAlienWorld/Textures/Colors3.png
+  artifactKey: Guid(1589dff7b09dc6948912ee54f7621efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Textures/Colors3.png using Guid(1589dff7b09dc6948912ee54f7621efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3d69c809b28b272fe43359ed71c1c6') in 0.413388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.655582 seconds.
+  path: Assets/StarfieldMaterials/DemoMaterials/Nebu_far.mat
+  artifactKey: Guid(2c5f1f976ebb41349a8789150d90a6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/DemoMaterials/Nebu_far.mat using Guid(2c5f1f976ebb41349a8789150d90a6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de9d9e4e2270800612a96dbadbb7e42') in 0.388041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Jonathan Foust/Demo Scene Assets/Materials/Pedestal.mat
+  artifactKey: Guid(ea499cd50469034469c9075379085e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Demo Scene Assets/Materials/Pedestal.mat using Guid(ea499cd50469034469c9075379085e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae50f623321cfd48489396a0b46ca17') in 0.018842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.368421 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55176dad73ee99f8832d614152d3d783') in 0.308023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Jonathan Foust/Materials/Fish-Hook Kelp 1.mat
+  artifactKey: Guid(938e072edb7fec0478a97bc5f93fbd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Fish-Hook Kelp 1.mat using Guid(938e072edb7fec0478a97bc5f93fbd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba744bb848aaacbdfefbf65bba57adb') in 0.384567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/LowPolyAlienWorld/Materials/Colors3.mat
+  artifactKey: Guid(4457d4214ef7ac1468876f8f30174519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyAlienWorld/Materials/Colors3.mat using Guid(4457d4214ef7ac1468876f8f30174519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d59d8bcbaf53f48988ae2e7ad663a0e') in 0.197069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001453 seconds.
+  path: Assets/Jonathan Foust/Materials/Blood Chute Material.mat
+  artifactKey: Guid(58ce61b5ce4769045bb1609949644b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Blood Chute Material.mat using Guid(58ce61b5ce4769045bb1609949644b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefa9138e7f6b6627b20e3d829456342') in 0.153726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Jonathan Foust/Materials/Neat Leaf.mat
+  artifactKey: Guid(05843a071e38e894e8a43f1e1e4a7885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Neat Leaf.mat using Guid(05843a071e38e894e8a43f1e1e4a7885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16107d09956f19183a1af64a86086f0') in 0.209962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Jonathan Foust/Demo Scene Assets/Materials/Bridge Railing.mat
+  artifactKey: Guid(da62faebe0fb0e24ba741c0d0a644159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Demo Scene Assets/Materials/Bridge Railing.mat using Guid(da62faebe0fb0e24ba741c0d0a644159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e188d19969a3935bb576a2158882e453') in 0.102583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Jonathan Foust/Materials/Mugwort and Vine Material.mat
+  artifactKey: Guid(e4c9e453356dfc74eaa056a399c5e06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Mugwort and Vine Material.mat using Guid(e4c9e453356dfc74eaa056a399c5e06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea14a4d5392dbbc8472872410b54f8c') in 0.030116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Jonathan Foust/Materials/Grass Material.mat
+  artifactKey: Guid(c4861e5a8a67c5e49ad95240a22fed2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Grass Material.mat using Guid(c4861e5a8a67c5e49ad95240a22fed2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee50e311cdf31a49f519fe13a53fb41') in 0.035139 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

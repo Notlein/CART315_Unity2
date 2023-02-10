@@ -21,7 +21,9 @@ public class CollisionResponse : MonoBehaviour
         
         if(collision.collider.gameObject == player)
         {
-            this.GetComponent<Rigidbody>().AddForce(new Vector3(0,600.0f,0));
+            Vector3 force = this.transform.position - collision.collider.gameObject.transform.position;
+            force = force * 200f;
+            this.GetComponent<Rigidbody>().AddForce(force);
 
 
         }
